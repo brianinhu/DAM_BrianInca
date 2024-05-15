@@ -206,25 +206,40 @@
             android:id="@+id/internet"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="8dp"
             android:text="@string/internet"
             android:textColor="#FFFFFF"
             android:textSize="10sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/amigos" />
+            app:layout_constraintStart_toEndOf="@+id/radio"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <CheckBox
             android:id="@+id/publicidad"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:text="@string/publicidad"
             android:textColor="#FFFFFF"
             android:textSize="10sp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/amigos"
             app:layout_constraintTop_toBottomOf="@+id/internet" />
+
+        <Button
+            android:id="@+id/btn_enviar"
+            android:layout_width="92dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="32dp"
+            android:background="#4CAF50"
+            android:backgroundTint="#3F51B5"
+            android:foregroundTint="#2196F3"
+            android:text="@string/btn_enviar"
+            android:textSize="10sp"
+            app:iconTint="#9E4949"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/publicidad" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -245,12 +260,23 @@
             android:id="@+id/titleAdmision"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="32dp"
             android:text="@string/title_admision"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="65dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/untels" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
