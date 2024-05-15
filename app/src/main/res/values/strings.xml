@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">DAM_BrianInca</string>
+    <string name="title_admision">Examen de Admisión 2024</string>
+    <string name="apellidos_nombres">Apellidos y nombres:</string>
+    <string name="correo_electronico">Correo electrónico:</string>
+    <string name="correo_clave">Clave:</string>
+    <string name="fecha_nacimiento">Fecha de nacimiento:</string>
+    <string name="carrera">Carrera:</string>
+    <string name="ing_sistemas">Ing.Sistemas</string>
+    <string name="ing_ambiental">Ing.Ambiental</string>
+    <string name="ing_mecanica">Ing.Mecánica</string>
+    <string name="administracion">Administración</string>
+    <string name="pregunta">¿Por qué medio se enteró de la convocatoria?</string>
+    <string name="radio">Radio</string>
+    <string name="internet">Internet</string>
+    <string name="amigos">Amigos</string>
+    <string name="publicidad">Publicidad</string>
 </resources>
